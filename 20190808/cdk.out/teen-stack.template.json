@@ -1,0 +1,13 @@
+{
+  "Resources": {
+    "MyIAMUser8287FA82": {
+      "Type": "AWS::IAM::User",
+      "Properties": {
+        "UserName": "260f157380fd043bec9e330e58680d57"
+      },
+      "Metadata": {
+        "aws:cdk:path": "teen-stack/MyIAMUser/Resource"
+      }
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "version": "0.36.0",
+  "artifacts": {
+    "baby-stack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-east-2",
+      "properties": {
+        "templateFile": "baby-stack.template.json"
+      },
+      "metadata": {
+        "/baby-stack/MyIAMUser/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyIAMUser8287FA82",
+            "trace": [
+              "new User (/private/var/folders/76/c1vjy_kn5d1b0slm_3hrlqz80000gn/T/jsii-kernel-Xn2tkA/node_modules/@aws-cdk/aws-iam/lib/user.js:19:22)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:49",
+              "Kernel._wrapSandboxCode (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7131:20)",
+              "Kernel._create (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:26)",
+              "Kernel.create (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6419:21)",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6191:28)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6218:21"
+            ]
+          }
+        ]
+      }
+    },
+    "mama-stack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-east-2",
+      "properties": {
+        "templateFile": "mama-stack.template.json"
+      },
+      "metadata": {
+        "/mama-stack/MyIAMUser/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyIAMUser8287FA82",
+            "trace": [
+              "new User (/private/var/folders/76/c1vjy_kn5d1b0slm_3hrlqz80000gn/T/jsii-kernel-Xn2tkA/node_modules/@aws-cdk/aws-iam/lib/user.js:19:22)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:49",
+              "Kernel._wrapSandboxCode (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7131:20)",
+              "Kernel._create (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:26)",
+              "Kernel.create (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6419:21)",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6191:28)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6218:21"
+            ]
+          }
+        ]
+      }
+    },
+    "daddy-stack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-east-2",
+      "properties": {
+        "templateFile": "daddy-stack.template.json"
+      },
+      "metadata": {
+        "/daddy-stack/MyIAMUser/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyIAMUser8287FA82",
+            "trace": [
+              "new User (/private/var/folders/76/c1vjy_kn5d1b0slm_3hrlqz80000gn/T/jsii-kernel-Xn2tkA/node_modules/@aws-cdk/aws-iam/lib/user.js:19:22)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:49",
+              "Kernel._wrapSandboxCode (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7131:20)",
+              "Kernel._create (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:26)",
+              "Kernel.create (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6419:21)",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6191:28)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6218:21"
+            ]
+          }
+        ]
+      }
+    },
+    "teen-stack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-east-2",
+      "properties": {
+        "templateFile": "teen-stack.template.json"
+      },
+      "metadata": {
+        "/teen-stack/MyIAMUser/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "MyIAMUser8287FA82",
+            "trace": [
+              "new User (/private/var/folders/76/c1vjy_kn5d1b0slm_3hrlqz80000gn/T/jsii-kernel-Xn2tkA/node_modules/@aws-cdk/aws-iam/lib/user.js:19:22)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:49",
+              "Kernel._wrapSandboxCode (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:7131:20)",
+              "Kernel._create (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6666:26)",
+              "Kernel.create (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6419:21)",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6191:28)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "KernelHost.processRequest (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6233:16)",
+              "KernelHost.run (/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:14)",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6137:45",
+              "/Users/richardboyd/dev/ThursdayNightStream/.env/lib/python3.7/site-packages/jsii/_embedded/jsii/jsii-runtime.js:6218:21"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/cx-api": "1.3.0",
+      "@aws-cdk/core": "1.3.0",
+      "@aws-cdk/region-info": "1.3.0",
+      "@aws-cdk/aws-iam": "1.3.0",
+      "jsii-runtime": "Python/3.7.3"
+    }
+  }
+}

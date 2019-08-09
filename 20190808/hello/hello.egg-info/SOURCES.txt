@@ -1,0 +1,7 @@
+README.md
+setup.py
+hello/hello.egg-info/PKG-INFO
+hello/hello.egg-info/SOURCES.txt
+hello/hello.egg-info/dependency_links.txt
+hello/hello.egg-info/requires.txt
+hello/hello.egg-info/top_level.txt

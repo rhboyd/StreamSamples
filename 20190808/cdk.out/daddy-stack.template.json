@@ -1,0 +1,10 @@
+{
+  "Resources": {
+    "MyIAMUser8287FA82": {
+      "Type": "AWS::IAM::User",
+      "Metadata": {
+        "aws:cdk:path": "daddy-stack/MyIAMUser/Resource"
+      }
+    }
+  }
+}

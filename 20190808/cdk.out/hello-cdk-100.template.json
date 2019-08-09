@@ -1,0 +1,53 @@
+{
+  "Resources": {
+    "MyIAMUser8287FA82": {
+      "Type": "AWS::IAM::User",
+      "Metadata": {
+        "aws:cdk:path": "hello-cdk-100/MyIAMUser/Resource"
+      }
+    },
+    "MyIAMUserDefaultPolicyF8B6D014": {
+      "Type": "AWS::IAM::Policy",
+      "Properties": {
+        "PolicyDocument": {
+          "Statement": [
+            {
+              "Action": [
+                "s3:GetObject*",
+                "s3:GetBucket*",
+                "s3:List*"
+              ],
+              "Effect": "Allow",
+              "Resource": [
+                {
+                  "Fn::ImportValue": "hellocdk100InnerStackD206F20B:InnerStackExportsOutputFnGetAttMyBucketF68F3FF0ArnD9989E91"
+                },
+                {
+                  "Fn::Join": [
+                    "",
+                    [
+                      {
+                        "Fn::ImportValue": "hellocdk100InnerStackD206F20B:InnerStackExportsOutputFnGetAttMyBucketF68F3FF0ArnD9989E91"
+                      },
+                      "/*"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "PolicyName": "MyIAMUserDefaultPolicyF8B6D014",
+        "Users": [
+          {
+            "Ref": "MyIAMUser8287FA82"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "hello-cdk-100/MyIAMUser/DefaultPolicy/Resource"
+      }
+    }
+  }
+}

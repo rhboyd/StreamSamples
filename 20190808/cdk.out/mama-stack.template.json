@@ -1,0 +1,13 @@
+{
+  "Resources": {
+    "MyIAMUser8287FA82": {
+      "Type": "AWS::IAM::User",
+      "Properties": {
+        "UserName": "Fran_Sinclair"
+      },
+      "Metadata": {
+        "aws:cdk:path": "mama-stack/MyIAMUser/Resource"
+      }
+    }
+  }
+}
